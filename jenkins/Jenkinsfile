@@ -22,7 +22,7 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage('Complete') {
+        stage('Complete!') {
             steps {
                 echo 'Master branch Job complete!'
             }
